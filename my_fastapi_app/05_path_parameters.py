@@ -5,6 +5,7 @@
 
 # Let's create an endpoint to get a user's details based on their ID.
 
+
 from fastapi import FastAPI
 
 app = FastAPI()
