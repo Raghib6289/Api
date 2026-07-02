@@ -9,6 +9,7 @@ from typing import Optional
 app = FastAPI()
 
 # 1. Define the Pydantic Model
+
 class Item(BaseModel):
     name: str
     description: Optional[str] = None  # Optional field with a default value of None
