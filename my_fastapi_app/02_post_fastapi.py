@@ -5,7 +5,9 @@
 # Why is POST important?
 
 # Resource Creation: It's the standard way to create new resources. For example, creating a new user account, adding a new product to an inventory, or submitting a new comment on a blog post.
+
 # Sending Complex Data: It's used when you need to send a significant amount of data in the request body, such as form submissions or JSON payloads.
+
 # How to implement POST in FastAPI:
 
 # You use the @app.post('/') decorator. The data sent in the request body will typically be parsed into a Python object, often using Pydantic models for validation.
